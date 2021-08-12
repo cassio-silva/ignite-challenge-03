@@ -1,1 +1,25 @@
-// TODO
+.postContainer {
+  margin: 0 auto;
+
+  .banner {
+    height: 400px;
+    img {
+      height: inherit;
+      width: 100%;
+    }
+  }
+}
+
+.post {
+  max-width: 720px;
+  margin: 0 auto;
+
+  .postTitle {
+    font-size: 3rem;
+    line-height: 3.625rem;
+    font-weight: bold;
+    color: var(--title);
+
+    margin-top: 4rem;
+  }
+}

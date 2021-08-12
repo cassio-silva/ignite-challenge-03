@@ -1,1 +1,52 @@
-// TODO
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.content {
+  margin: 2rem auto;
+
+  a + a {
+    display: block;
+    margin-top: 3rem;
+  }
+  
+  a:hover {
+    strong {
+      color: var(--link);
+    }
+  }
+
+  strong {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+
+    color: var(--title);
+    transition: color 0.2s;
+  }
+
+  h2 {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    font-weight: normal;
+
+    color: var(--subtitle);
+    margin-top: 0.5rem;
+  } 
+
+  button.loadMore {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: var(--link);
+    background: transparent;
+    border: 0;
+
+    margin: 4.5rem 0 2rem;
+    padding: 1.5rem 0;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

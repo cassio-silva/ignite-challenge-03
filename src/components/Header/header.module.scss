@@ -1,1 +1,13 @@
-// TODO
+.header {
+  height: 5rem;
+
+  .headerContent {
+    max-width: 720px;
+    height: 5rem;
+    margin: 3rem auto 2rem;
+
+    a {
+      display: inline-block;
+    }
+  }
+}
